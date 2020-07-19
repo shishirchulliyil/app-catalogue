@@ -1,0 +1,22 @@
+.searchInput {
+  margin-bottom: 2em;
+  display: flex;
+  flex: 1;
+  border: 1px solid #bbb;
+}
+
+.searchInput__input {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  background: white;
+}
+.searchInput__icon {
+  color: #bbb;
+  padding: 5px;
+  border: none;
+  height: 22px !important;
+  background: white;
+}

@@ -1,0 +1,7 @@
+.rightPanelApps__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}

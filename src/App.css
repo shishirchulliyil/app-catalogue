@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+}
+
+.App {
+  background: #eee;
+}
+
+.app__grid {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap: 2em;
+}

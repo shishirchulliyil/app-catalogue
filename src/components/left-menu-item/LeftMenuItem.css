@@ -1,0 +1,19 @@
+.leftMenuItem {
+  margin-top: 1em;
+  display: flex;
+}
+
+.leftMenuItem__name {
+  width: 100%;
+  font-size: 14px;
+}
+
+.leftMenuItem__count {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  border: 2px solid #ddd;
+  border-radius: 10%;
+  font-size: 12px;
+  padding: 5px;
+}

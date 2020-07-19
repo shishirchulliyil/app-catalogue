@@ -1,0 +1,14 @@
+.rightPanel {
+  margin-right: 3em;
+  padding: 1em;
+}
+
+.rightPanel__pagesParentDiv {
+  /* text-align: center; */
+}
+
+.rightPanel__pages {
+  /* display: inline-block; */
+  width: 600px;
+  margin: 0 auto;
+}
