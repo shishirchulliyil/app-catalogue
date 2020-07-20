@@ -13,6 +13,7 @@ function RightPanelApps(props) {
         {apps !== null
           ? apps.map((app) => (
               <AppCard
+                key={app.id}
                 appName={app.appName}
                 appUnit={app.appUnit}
                 appDesc={app.appDesc}
