@@ -1,6 +1,7 @@
 import React from "react";
 import "./RightPanelApps.css";
 import AppCard from "../app-card/AppCard";
+import apps from "../../dummy-data/dummy-app-list";
 
 function RightPanelApps(props) {
   const { type } = props;
@@ -9,10 +10,16 @@ function RightPanelApps(props) {
       <h3 className="rightPanelApps__header"> {props.headerName}</h3>
       <div className="rightPanelApps__grid">
         {/* App cards */}
-        <AppCard />
-        <AppCard />
-        <AppCard />
-        <AppCard />
+        {apps !== null
+          ? apps.map((app) => (
+              <AppCard
+                appName={app.appName}
+                appUnit={app.appUnit}
+                appDesc={app.appDesc}
+                image={app.image}
+              />
+            ))
+          : ""}
       </div>
     </div>
   );

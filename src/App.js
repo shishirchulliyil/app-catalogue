@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <div className="app__grid">
-        <LeftPanel />
-        <RightPanel />
+        <LeftPanel className="app__leftPanel" />
+        <RightPanel className="app__rightPanel" />
       </div>
     </div>
   );

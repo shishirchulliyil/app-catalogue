@@ -11,12 +11,14 @@ function LeftPanel() {
       {/* search panel */}
       <SearchInput />
 
-      {/* business unit */}
-      <LeftMenu businessAppList={businessUnitApps} />
-      {/* location */}
-      <LeftMenu businessAppList={businessUnitApps} />
-      {/* type */}
-      <LeftMenu businessAppList={businessUnitApps} />
+      <div className="leftPanel__appList">
+        {/* business unit */}
+        <LeftMenu businessAppList={businessUnitApps} />
+        {/* location */}
+        <LeftMenu businessAppList={businessUnitApps} />
+        {/* type */}
+        <LeftMenu businessAppList={businessUnitApps} />
+      </div>
     </div>
   );
 }
